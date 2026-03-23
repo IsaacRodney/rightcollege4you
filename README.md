@@ -1,27 +1,20 @@
 # RightCollege4You
 
-Full-stack college consulting website built with React, Tailwind CSS, and Express.
+Frontend-only college consulting website built with React and Tailwind CSS.
 
 ## Run locally
 
 ```bash
 npm install
 npm --prefix client install
-npm --prefix server install
 npm run dev
 ```
 
-Frontend: `http://localhost:5173`
+Open `http://localhost:5173`
 
-Backend: `http://localhost:5000/api`
+## Notes
 
-## Optional server env
-
-Create `server/.env`:
-
-```bash
-ADMIN_TOKEN=rightcollege-admin
-PORT=5000
-```
-
-Visit `/admin` and sign in with the admin token to add or edit success stories.
+- Success stories are seeded in the browser and persisted with `localStorage`
+- Contact form submissions are saved locally in the browser
+- Visit `/admin` and sign in with the admin token to add or edit success stories
+- Default admin token: `rightcollege-admin`

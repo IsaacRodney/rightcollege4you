@@ -113,6 +113,13 @@ export default function AdminPage() {
     setForm((current) => ({ ...current, [name]: value }));
   }
 
+  function handleSignOut() {
+    localStorage.removeItem("rc4u-admin-token");
+    setIsAuthed(false);
+    setToken("");
+    setFeedback({ type: "", message: "" });
+  }
+
   if (!isAuthed) {
     return (
       <section className="mx-auto max-w-xl px-6 py-20">
@@ -199,8 +206,19 @@ export default function AdminPage() {
         </form>
 
         <div className="rounded-[2rem] border border-white/10 bg-slate-950/70 p-8">
-          <h2 className="font-display text-3xl text-white">Current Stories</h2>
-          <p className="mt-3 text-slate-300">Select an item to load it into the form and edit its details.</p>
+          <div className="flex items-start justify-between gap-4">
+            <div>
+              <h2 className="font-display text-3xl text-white">Current Stories</h2>
+              <p className="mt-3 text-slate-300">Select an item to load it into the form and edit its details.</p>
+            </div>
+            <button
+              type="button"
+              onClick={handleSignOut}
+              className="rounded-full border border-white/15 px-4 py-2 text-sm text-slate-200 transition hover:bg-white/10"
+            >
+              Sign Out
+            </button>
+          </div>
           <div className="mt-8 space-y-4">
             {loading && <LoadingState label="Loading stories..." />}
             {!loading &&

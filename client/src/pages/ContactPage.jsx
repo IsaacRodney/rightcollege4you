@@ -48,13 +48,13 @@ export default function ContactPage() {
           <SectionIntro
             eyebrow="Get Started"
             title="Book a strategy conversation."
-            description="Tell us where you are in the process, what you’re aiming for, and how we can help."
+            description="Tell us where you are in the process, what you're aiming for, and how we can help."
           />
           <div className="mt-10 rounded-[2rem] border border-white/10 bg-white/5 p-8">
             <p className="text-sm uppercase tracking-[0.3em] text-slate-400">Booking Preview</p>
             <h2 className="mt-4 font-display text-3xl text-white">Calendly-style placeholder</h2>
             <p className="mt-4 text-base leading-7 text-slate-300">
-              Consultation slots can be embedded here later for direct scheduling. For now, submit the form and we’ll follow up personally.
+              Consultation slots can be embedded here later for direct scheduling. For now, submit the form and we'll follow up personally.
             </p>
           </div>
         </div>
