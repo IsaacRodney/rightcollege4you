@@ -5,7 +5,6 @@ import AdminPage from "./pages/AdminPage";
 import ContactPage from "./pages/ContactPage";
 import HomePage from "./pages/HomePage";
 import PricingPage from "./pages/PricingPage";
-import StoryDetailPage from "./pages/StoryDetailPage";
 import SuccessStoriesPage from "./pages/SuccessStoriesPage";
 
 export default function App() {
@@ -14,7 +13,6 @@ export default function App() {
       <Route element={<Layout />}>
         <Route path="/" element={<HomePage />} />
         <Route path="/success-stories" element={<SuccessStoriesPage />} />
-        <Route path="/success-stories/:slug" element={<StoryDetailPage />} />
         <Route path="/about" element={<AboutPage />} />
         <Route path="/pricing" element={<PricingPage />} />
         <Route path="/contact" element={<ContactPage />} />

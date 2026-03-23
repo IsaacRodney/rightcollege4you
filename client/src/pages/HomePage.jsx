@@ -16,8 +16,8 @@ const testimonials = [
   },
   {
     quote: "Every essay draft got stronger, and I finally knew how to tell my story instead of sounding generic.",
-    author: "NYU admit",
-    result: "Accepted to NYU, USC, and Boston University"
+    author: "UChicago admit",
+    result: "Accepted to UChicago, Rice University, and UIUC"
   }
 ];
 

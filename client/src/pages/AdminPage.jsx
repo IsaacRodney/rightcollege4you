@@ -230,7 +230,7 @@ export default function AdminPage() {
                   className="w-full rounded-3xl border border-white/10 bg-white/5 p-5 text-left transition hover:border-accent/40"
                 >
                   <p className="font-semibold text-white">{story.name}</p>
-                  <p className="mt-1 text-sm text-slate-400">{story.highSchool} | {story.topSchool}</p>
+                  <p className="mt-1 text-sm text-slate-400">{story.topSchool}</p>
                 </button>
               ))}
             {!loading && stories.length === 0 && <ErrorState message="No stories found yet." />}
