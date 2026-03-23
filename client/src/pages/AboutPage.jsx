@@ -26,9 +26,6 @@ export default function AboutPage() {
           <p className="mt-4 text-lg leading-8 text-slate-300">
             We help students present the strongest, truest version of themselves to colleges through sharp positioning, better essays, and a process designed to reduce stress.
           </p>
-          <p className="mt-4 text-lg leading-8 text-slate-300">
-            Founder story placeholder: share the journey behind RightCollege4You, why this work matters, and the philosophy that shaped the service.
-          </p>
         </article>
         <article className="rounded-[2rem] border border-white/10 bg-slate-950/60 p-8">
           <h2 className="font-display text-3xl text-white">What Makes Us Different</h2>
