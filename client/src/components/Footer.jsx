@@ -21,9 +21,7 @@ export default function Footer() {
         <div>
           <p className="text-sm font-semibold uppercase tracking-[0.25em] text-slate-500">Contact</p>
           <div className="mt-4 space-y-2 text-sm text-slate-300">
-            <p>rodney_simon@hotmail.com</p>
             <p>630-730-8218</p>
-            <p>Bolingbrook, Illinois</p>
             <p>Helping students nationwide</p>
           </div>
         </div>
